@@ -1,2 +1,7 @@
-# 203_project
-this is the description for the project, will be updated after the current phase
+# LISTO
+
+1-download repo
+2-open vs file
+3-run file
+4-enjoy the chaos :3
+
