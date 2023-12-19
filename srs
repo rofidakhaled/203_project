@@ -1,0 +1,59 @@
+                                LISTO SRS
+
+
+Date: 12/10/2023 
+Version: 2
+Change by: Rofida
+Change description: functional requirements have been edited, changes are highlighted
+Functional requirements:
+Application offers an Implementation of a flexible Pomodoro technique: As the Pomodoro technique is 25 minutes working and 5 minutes break, This is not effective for all people and that’s why we will let the user choose the work and break time as they prefer.
+
+Application should offer a To-Do list: is a function designed to help the user organize and manage tasks efficiently by providing the ability to write or create them.
+
+Users can add Tasks and subtasks: It’s an effective technique to divide big tasks into smaller tasks that could be done at different times and each one will be completed in the day, it will be considered on the day the task has been completed not the whole big task has been completed.
+
+Users should be able to track their Daily and weekly habits: To build a habit this could vary from one to another and thus we will let the user keep track of habits with the number of days they think it’s suitable for them.
+
+Users should be able to check Progress percentage: having a vision of what has been achieved of total tasks will help to plan the other days.
+
+Users should be able to check Daily/ weekly progress reports: progress reports include statistics, logs of completed tasks, to-dos, and rewards
+
+User should be able to share with friends: user can share progress reports, statements of congratulations, and number of rewarded points with friends
+
+App should provide event Calendar planning: Displaying the calendar, progress bar, as well as the list of each day.
+
+Users can receive reward points: points are rewarded for progress done by the user.
+
+Users would be able to check History tracker “timeline”: it's part of the report, and it shows all the to-dos the user has completed. 
+
+Users should be able to change themes: users gain points when finishing tasks which will provide users the ability to purchase new themes.
+
+User should be able to plan projects: each project can contain its own calendar, to-do lists, and progress reports
+
+Users should be able to Prioritize tasks: the user will be able to change the task order.
+
+The app should be able to Change the user’s icon: The user icon will be changed for a specific number of hours depending on the user's progress.
+
+Users should be able to add pictures to a mood board: a mood board is a collection of reference images used for motivation and inspiration
+
+Users can add Reminders: users will have notification-based reminders to ensure that important events and to-dos are never forgotten.
+
+user should be able to add sticky notes to the main page: users will be able to add/create sticky notes whenever the user wants. 
+
+Users should be able to use a Mood tracker: a mood tracker is used to log daily feelings through simple emojis
+
+Users should be able to Search for tasks: This function should help users to locate tasks to ensure that workflow is accessible quickly.
+Random Quotes: Motivational quotes will be displayed after completing the whole to-do list
+Non-functional requirements:
+Performance: time should be updated consistently with device time with a maximum delay of XX
+Usability: app has a User-friendly interface 
+website should offer Motivational videos: Sidebar with YouTube motivational videos 
+
+
+GitHub
+
+
+
+
+
+
