@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+ul {
+  
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #FFFAA0;
+}
+div{
+
+  float: left;
+  width: 240px;
+  height: 500px;
+  overflow: auto;
+ } 
+div0 {
+  border: 2px solid black;  
+  border-radius: 5px;    
+  float: right;
+  width: 250px;
+  height: 500px;  
+  overflow: auto; 
+
+}    
+div2 {
+  border: 2px solid black;  
+  border-radius: 5px;    
+  float: right;
+  width: 500px;
+  height: 500px;  
+  overflow: auto; 
+margin-left: 20px;
+}
+      
+div1 {
+  float: right;
+  background-color: #FFFAA0;
+  width: 200px;
+  height: 200px;  
+  overflow: auto; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+form{
+  border: 1px solid black;  
+  border-radius: 5px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+      }
+details{
+      float: right;
+      }
+input{
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin-left: 5px;
+  margin-right:5px; 
+      }
+label{
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin-left: 5px;
+  margin-right:5px; 
+      }
+</style>
+<script>
+
+</script>
+</head>
+<body>
+<header>
+    <h1>
+        LISTO
+    </h1>
+    
+</header>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#pomodoro">pomodoro</a></li>
+  <li><a href="#calender">calender</a></li>
+  <li><a href="#habits">habits</a></li>
+  <li><a href="#report">report</a></li>
+  <li><a href="#mood">mood board</a></li>
+</ul>
+<div>
+  
+<aside>   
+<video width="220" height="140" controls>
+  <source src="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</aside>
+<aside>   
+<video width="220" height="140" controls>
+  <source src="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</aside>
+<aside>   
+<video width="220" height="140" controls>
+  <source src="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</aside>
+<aside>   
+<video width="220" height="140" controls>
+  <source src="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</aside>
+<aside>   
+<video width="220" height="140" controls>
+  <source src="" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</aside>
+</div>
+<div2>
+<form>
+<label for="todo">Add To-Do</label><br>
+<input type="text" id="todo"><br>
+<input type="submit" value="Submit"><br>
+</form>  
+<form>
+<input type="checkbox">
+<label for="todo1">First ToDo</label><br>  
+<details> 
+<form>
+<label for="todo">Add sub To-Do</label><br>
+<input type="text" id="todo"><br>
+<input type="submit" value="Submit"><br>
+<input type="checkbox">
+<label for="todo1">First sub ToDo</label><br>  
+</form>
+</details>
+</form>
+
+</div2>
+<div0> 
+<form>
+<label for="sticky">Add sticky Note</label><br>
+<input type="text" id="sn"><br>
+<input type="submit" value="Submit">
+ </form>
+<div1>
+  <p>
+    hiiii
+  </p>
+</div1>
+  <div1>
+  <p>
+    hiiii
+  </p>
+</div1>
+  <div1>
+  <p>
+    hiiii
+  </p>
+</div1>
+</div0> 
+
+   
+
+</body>
+</html>
