@@ -1,0 +1,59 @@
+Listo
+
+Listo means readiness and cleverness in Spanish and therefore is the most befitting for our vision of the all-in-one task organizing and time management web application, Listo is a work-smart “study-buddy” that aims to assist users in tracking their daily tasks and habits through a variety of tools such as flexible Pomodoro, To-do lists, calendars, habits counter, and more. The web app pushes a user-friendly attitude by offering productivity status and daily reports, to further help the user to build the habit of task tracking. Ultimately, Listo is user-friendly for every responsible and proactive user.
+
+Listo stands out among other task-tracking apps with its one-of-a-kind feature collections, Listo offers every kind of time management and organizing tool in one app to facilitate its use for users, Listo also follows the reward system model often used in games to mimic the wining rush each time progress is done by the user, the anticipation for the next big prize boosts the productivity of users in a way that is not present in any other app, Listo keeps track of the user’s development through progress percentage and full reports, listo’s biggest selling point is the customizability and personification of the app to fit each user through different tools and themes.
+
+To implement Listo the development team is expecting to use programming tools such as FLASK, GIT, and Jira to produce a multi-user web app, the preferred IDE is VS code, for the planning and designing phases Lucidchart will be used for diagramming, and to keep track of the project progress and documentation the team will use GitHub and implement the SCRUM agile method, the initial architecture design of the project features the user progress tracker, timer, notification system, and reporting system as actors interacting with the system, the project will be implemented using object-oriented programing, further details are visualized in figure 1.
+
+A risk involved in implementing Listo is taking up the challenge of integrating all the tools in one cohesive mesh. The implementation of such a dynamic database and supporting multimedia database components for the proposed scope of the project can lead to underperforming due to lack of skill. To mitigate such risk the team will list all the possible hazards during the designing phase, and make a schedule in advance to study and practice any needed skills to overcome the listed obstacles, the team will refer to faculty members and supervising TAs for help, and the progress will be tracked on GitHub.
+
+
+
+
+
+
+
+
+
+
+Characteristics
+On-Premises
+Public cloud
+Technical Feasibility
+Needs more training 
+Lower accessibility
+More complicated infrastructure 
+
+
+Low risk
+Cross-platform accessibility
+Simple infrastructure 
+Capacity easy to scale up and down
+Operational Feasibility
+Higher learning curve
+Approaches all problems
+Customizable 
+Easy adoption for users
+Approaches all problems
+Customizable
+
+
+
+Economic Feasibility
+Higher cost of licensing and maintenance due to Total cost of ownership(TCO)
+Lower return
+Estimate cost of license: 1400 $ /mo
+
+
+Lower cost of hosting
+Higher return from subscription
+
+Estimate cost of server renting: 400 $ /mo
+Schedule Feasibility
+Nov 2024
+Dec 2023
+
+
+Figure 1: Initial System Architecture Design
+
