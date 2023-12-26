@@ -1,0 +1,19 @@
+create table habits(
+habit_id int NOT NULL,
+userID int,
+habit_name varchar(255),
+HabitStatus VARCHAR,
+Frequency int,
+perday int,
+streakCount int,
+startDate datetime NOT NULL,
+completeDate datetime,
+EndDate datetime,
+primary key (habit_id,userID) 
+);
+
+--Habits Queries
+INSERT INTO habits(habit_id,habit_name,Frequency,userID,startDate) VALUES((select count( distinct habit_id) from habits)+1,'Reading',30,1,26/12/2023)--Adding new habit
+INSERT INTO habits(habit_id,userID,completeDate,HabitStatus) VALUES(1,1,27/12/2023,'Done')-- To change the status of the habit
+SELECT completeDate,habit_id,HabitStatus from habits-- To view the progress 
+SELECT habit_name from habits where userID=1;-- To know the whole habits
