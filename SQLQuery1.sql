@@ -38,24 +38,23 @@ primary key (st_id)
 
 );
 
-create table callender (
+create table calender (
 event_id int NOT NULL,
 event_name varchar(255),
 event_type varchar (255) NOT NULL,
-timeslot datetime NOT NULL,
+timeslot DATE NOT NULL,
 primary key (event_id)
-
 );
 
 create table habits(
 habit_id int NOT NULL,
+userID int,
 habit_name varchar(255),
-Frequency int,
+HabitStatus VARCHAR(10) not null,
 perday int,
-c_num int,
-timeslot datetime NOT NULL,
-primary key (habit_id)
-
+streakCount int,
+completeDate datetime,
+primary key (habit_id,userID) 
 );
 
 create table emotion(
