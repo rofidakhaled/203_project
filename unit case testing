@@ -1,0 +1,13 @@
+private List<reminder> GetTestReminder()
+{
+var testreminder=new List<reminder>();
+testreminder.add(new Product { rem_id= 1, rem_name= "rem1", set_date= 1/1/2025, timeslot= 1/1/2024 04:25 });
+testreminder.add(new Product { rem_id= 2, rem_name= "rem6", set_date= 11/2/2025, timeslot= 1/10/2024 05:55 });
+testreminder.add(new Product { rem_id= 3, rem_name= "rem7", set_date= 12/3/2024, timeslot= 1/2/2024 06:35 });
+testreminder.add(new Product { rem_id= 4, rem_name= "rem8", set_date= 13/4/2024, timeslot= 1/11/2024 07:15 });
+testreminder.add(new Product { rem_id= 5, rem_name= "rem9", set_date= 14/5/2024, timeslot= 1/5/2024 08:45 });
+testreminder.add(new Product { rem_id= 6, rem_name= "rem10", set_date= 15/6/2024, timeslot= 1/12/2024 04:25 });
+
+
+return testreminder;
+}
