@@ -22,13 +22,11 @@ primary key (todo_id)
 
 );
 
-create table reminder(
-rem_id int NOT NULL,
-rem_name nvarchar,
-set_date datetime NOT NULL,
-timeslot datetime NOT NULL,
-primary key (rem_id)
-
+CREATE TABLE reminder(
+    rem_id INT IDENTITY(1,1) PRIMARY KEY,
+    rem_name NVARCHAR(MAX),
+    set_date DATETIME NOT NULL,
+    timeslot DATETIME NOT NULL
 );
 
 create table notes
