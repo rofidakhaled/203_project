@@ -11,3 +11,20 @@ testreminder.add(new Product { rem_id= 6, rem_name= "rem10", set_date= 15/6/2024
 
 return testreminder;
 }
+private List<calender> GETtestcalender()
+{
+var testcalender=new List<calender>();
+testcalender.add(new calender { rem_id= 1, rem_name= "event1", set_date= 1/1/2022);
+testcalender.add(new calender { rem_id= 2, rem_name= "Event3", set_date= 11/2/2023);
+testcalender.add(new calender { rem_id= 3, rem_name= "Event4", set_date= 12/3/2024);
+testcalender.add(new calender { rem_id= 4, rem_name= "Event4", set_date= 13/4/2024);
+testcalender.add(new calender { rem_id= 5, rem_name= "Event5", set_date= 14/5/2024);
+testcalender.add(new calender { rem_id= 6, rem_name= "Event6", set_date= 15/6/2024);
+testcalender.add(new calender { rem_id= 4, rem_name= "Event7", set_date= 15/6/2024);
+
+
+return testcalender;
+}
+
+
+
