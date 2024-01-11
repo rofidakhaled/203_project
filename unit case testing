@@ -39,6 +39,19 @@ testlogin.add(new users { USER_ID=5 User_Email= "s-reofida_khaled@gmail.com", Us
 
 return testlogin;
 }
+private List<todo> GETtodo()
+{
+var testTodo=new List<todo>();
+testTodo.add(new todo { todo_id=""  todo_name= "", sub_todo="", timeslot=""});
+testTodo.add(new todo { todo_id=1 todo_name=3 sub_todo="Task1", timeslot="-11:30")};
+testTodo.add(new todo { USER_ID=2 todo_name="WORK" sub_todo="Task1", timeslot="1:45");
+testTodo.add(new todo { USER_ID=1 todo_name="Reading" sub_todo="", timeslot="5:45");
+
+return testTodo;
+}
+
+
+
 
 
 
