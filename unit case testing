@@ -25,6 +25,21 @@ testcalender.add(new calender { rem_id= 4, rem_name= "Event7", set_date= 15/6/20
 
 return testcalender;
 }
+private List<users> GETtestsignin()
+{
+var testlogin=new List<users>();
+testlogin.add(new users { USER_ID=1  User_Email= "s-rehab.email@zewailcity.eg", User_Name="Rehab"});
+testlogin.add(new users { USER_ID=1 User_Email= "s-rehab.esmail@zewailcity.eg", User_Name="Rehab")};
+testlogin.add(new users { USER_ID=2 User_Email= "rehab.email.eg", User_Name="Rehab"));
+testlogin.add(new users { USER_ID=2 User_Email= "s-rehab.email@zewailcity.eg", User_Name="Rehab");
+testlogin.add(new users { USER_ID=3 User_Email= "s-rehab.email@zewailcity", User_Name="Rehab");
+testlogin.add(new users { USER_ID=4 User_Email= "Rofida@zewailcity.eg", User_Name="ROV");
+testlogin.add(new users { USER_ID=5 User_Email= "s-reofida_khaled@gmail.com", User_Name="Rofida");
+
+
+return testlogin;
+}
+
 
 
 
